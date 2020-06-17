@@ -1,0 +1,52 @@
+.app-header {
+  align-items: center;
+  background-color: #fff;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 50px;
+}
+
+.button-clicked a {
+  color: #055f52 !important;
+}
+
+.button-wrapper {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.header-button {
+  background-color: #fff;
+  border: none;
+  color: #71c9ce;
+  font-size: large;
+  font-weight: 500;
+}
+
+.header-button a {
+  color: #71c9ce;
+  text-decoration: none;
+}
+
+.header-button:active {
+  border: none;
+  outline: none;
+}
+
+.header-button:focus {
+  border: none;
+  outline: none;
+}
+
+.header-button:hover {
+  color: #055f52;
+  cursor: pointer;
+}
+
+.logo-header {
+  border: 2px solid #e3fdfd;
+  border-radius: 10px;
+  cursor: pointer;
+  height: 50px;
+  width: 50px;
+}

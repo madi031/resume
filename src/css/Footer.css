@@ -1,0 +1,38 @@
+.app-footer {
+  align-items: center;
+  background-color: #cbf1f5;
+  color: #71c9ce;
+  display: flex;
+  flex-direction: column;
+  left: 0;
+  margin-top: 50px;
+  padding-bottom: 50px;
+  padding-left: 50px;
+  padding-right: 50px;
+  position: absolute;
+  right: 0;
+}
+
+.app-footer p {
+  color: #055f52;
+  text-align: center;
+}
+
+.footer-contact {
+  align-items: center;
+  display: flex;
+  text-decoration: none;
+}
+
+.footer-contact p {
+  color: #055f52;
+  margin: 0;
+  margin-left: 10px;
+}
+
+.footer-contact-container {
+  display: flex;
+  justify-content: space-evenly;
+  margin-top: 20px;
+  width: 40%;
+}

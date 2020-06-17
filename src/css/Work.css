@@ -1,0 +1,102 @@
+.api-gateway-img {
+  height: auto;
+  max-width: 80%;
+}
+
+.fb-container {
+  background-color: #07689f;
+}
+
+.fb-position {
+  color: #fafafa;
+}
+
+.fb-team {
+  color: #a2d5f2;
+}
+
+.fb-team-details li {
+  color: #fafafa;
+  font: 1em;
+}
+
+.fb-title {
+  color: #a2d5f2;
+}
+
+.ibm-container {
+  background-color: #112d4e;
+}
+
+.ibm-position {
+  color: #dbe2ef;
+}
+
+.ibm-team {
+  color: #f9f7f7;
+}
+
+.ibm-team-details li {
+  color: #dbe2ef;
+  font: 1em;
+}
+
+.ibm-title {
+  color: #f9f7f7;
+}
+
+.infy-container {
+  background-color: #f85f73;
+  margin-bottom: -50px;
+}
+
+.infy-position {
+  color: #fbe8d3;
+}
+
+.infy-team-details li {
+  color: #fbe8d3;
+  font: 1em;
+}
+
+.infy-title {
+  color: #283c63;
+}
+
+.more-link {
+  color: #f9f7f7;
+  font-size: 0.9em;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+.work-container {
+  display: flex;
+  margin-left: -50px;
+  margin-right: -50px;
+  padding: 20px 50px;
+}
+
+.work-position {
+  font-size: 0.85em;
+  margin-top: 10px;
+  text-transform: uppercase;
+}
+
+.work-section {
+  align-items: center;
+  display: flex;
+  justify-content: space-between;
+}
+
+.work-team {
+  font-size: 1em;
+  margin-top: 20px;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.work-title {
+  font-size: 1.25em;
+  margin-bottom: 10px;
+}

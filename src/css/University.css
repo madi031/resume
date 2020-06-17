@@ -1,0 +1,89 @@
+.au-container {
+  background-color: #384259;
+  margin-bottom: -50px;
+}
+
+.au-course {
+  color: #ffde7d;
+}
+
+.au-course-list {
+  color: #f8f3d4;
+}
+
+.au-degree {
+  color: #f8f3d4;
+}
+
+.au-location {
+  color: #ffde7d;
+}
+
+.au-title {
+  color: #ffde7d;
+}
+
+.ncsu-container {
+  background-color: #ff4255;
+}
+
+.ncsu-course {
+  color: #252a34;
+}
+
+.ncsu-course-list {
+  color: #eaeaea;
+}
+
+.ncsu-degree {
+  color: #eaeaea;
+}
+
+.ncsu-location {
+  color: #252a34;
+}
+
+.ncsu-title {
+  color: #252a34;
+}
+
+.univ-container {
+  display: flex;
+  margin-left: -50px;
+  margin-right: -50px;
+  padding: 20px 50px;
+}
+
+.univ-course {
+  font-size: 1em;
+  margin-top: 20px;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.univ-course-list {
+  font-size: 1em;
+}
+
+.univ-degree {
+  font-size: 0.85em;
+  margin-top: 10px;
+  text-transform: uppercase;
+}
+
+.univ-location {
+  align-items: flex-start;
+  display: flex;
+  text-decoration: none;
+  width: fit-content;
+}
+
+.univ-location p {
+  margin-left: 10px;
+  margin-top: 0;
+}
+
+.univ-title {
+  font-size: 1.25em;
+  margin-bottom: 10px;
+}
