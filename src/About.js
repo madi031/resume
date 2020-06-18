@@ -41,13 +41,6 @@ const About = () => {
             >
               <MdMail className='mail-icon' />
             </a>
-            <a
-              className='twitter-share-button'
-              data-size='large'
-              href='https://twitter.com/intent/tweet?text=Mathioli%20Ramalingam%20-%20Software%20Developer:&via=mathioli'
-            >
-              Tweet
-            </a>
           </div>
         </div>
       </div>

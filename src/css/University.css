@@ -65,6 +65,12 @@
   font-size: 1em;
 }
 
+@media only screen and (max-width: 500px) {
+  .univ-course, .univ-course-list {
+    display: none;
+  }
+}
+
 .univ-degree {
   font-size: 0.85em;
   margin-top: 10px;

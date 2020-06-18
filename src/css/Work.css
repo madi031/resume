@@ -1,8 +1,3 @@
-.api-gateway-img {
-  height: auto;
-  max-width: 80%;
-}
-
 .fb-container {
   background-color: #07689f;
 }
@@ -77,6 +72,17 @@
   padding: 20px 50px;
 }
 
+.work-img {
+  height: auto;
+  max-width: 80%;
+}
+
+@media only screen and (max-width: 980px) {
+  .work-img {
+    display: none;
+  }
+}
+
 .work-position {
   font-size: 0.85em;
   margin-top: 10px;
@@ -94,6 +100,12 @@
   margin-top: 20px;
   text-align: center;
   text-transform: uppercase;
+}
+
+@media only screen and (max-width: 500px) {
+  .work-details, .work-team {
+    display: none;
+  }
 }
 
 .work-title {
