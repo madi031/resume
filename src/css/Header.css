@@ -7,7 +7,7 @@
 }
 
 .button-clicked a {
-  color: #055f52 !important;
+  color: #85e5ff !important;
 }
 
 .button-wrapper {
@@ -18,13 +18,13 @@
 .header-button {
   background-color: #fff;
   border: none;
-  color: #71c9ce;
+  color: #00a0f6;
   font-size: large;
   font-weight: 500;
 }
 
 .header-button a {
-  color: #71c9ce;
+  color: #00a0f6;
   text-decoration: none;
 }
 
@@ -39,7 +39,7 @@
 }
 
 .header-button:hover {
-  color: #055f52;
+  color: #85e5ff;
   cursor: pointer;
 }
 

@@ -101,7 +101,7 @@ const Honors = () => {
             target='_blank'
             style={{textDecoration: 'none'}}
           >
-            More...
+            Details...
           </a>
         </li>
       </ul>

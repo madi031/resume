@@ -15,8 +15,15 @@ const Projects = () => {
             `Here's a selection of some of my recent work. 
           For more up to date work you can visit me on `
           }
-          <em style={{color: '#1fab89'}}>
-          GitHub
+          <em>
+            <a
+              href='https://github.com/madi031?tab=repositories'
+              rel='noopener noreferrer'
+              style={{color: '#0f4c75', textDecoration: 'none'}}
+              target='_blank'
+            >
+              GitHub
+            </a>
           </em>
           {
             `.`

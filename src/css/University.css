@@ -72,13 +72,14 @@
 }
 
 .univ-location {
-  align-items: flex-start;
+  align-items: center;
   display: flex;
   text-decoration: none;
   width: fit-content;
 }
 
 .univ-location p {
+  margin-bottom: 0;
   margin-left: 10px;
   margin-top: 0;
 }

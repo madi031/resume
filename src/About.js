@@ -1,7 +1,7 @@
 import React from 'react';
-import {FaCode, FaLaptopCode} from 'react-icons/fa';
-import {MdMail} from 'react-icons/md';
-import {Link} from 'react-router-dom';
+import { FaCode, FaLaptopCode } from 'react-icons/fa';
+import { MdMail } from 'react-icons/md';
+import { Link } from 'react-router-dom';
 
 import './css/App.css';
 import './css/About.css';
@@ -26,7 +26,7 @@ const About = () => {
             {'I\'m Mathioli Ramalingam (madi)'}
           </h2>
           <em>
-              a UI Engineer
+            a UI Engineer
           </em>
           <p>
             Live in Raleigh, North Carolina, USA
@@ -44,7 +44,7 @@ const About = () => {
         <h2>
           Hi.
         </h2>
-        <p style={{marginTop: 0, textAlign: 'center'}}>
+        <p style={{ marginTop: 0, textAlign: 'center' }}>
           {
             `I'm a web and mobile developer with good knowledge 
             of front-end technologies. I love spending time on 
@@ -57,11 +57,11 @@ const About = () => {
           What I can do.
         </h2>
         <div className='work-section'>
-          <div style={{marginRight: '20px'}}>
+          <div style={{ marginRight: '20px' }}>
             <FaLaptopCode className='large-icon' />
           </div>
           <div>
-            <h3 style={{color: '#71c9ce'}}>
+            <h3 style={{ color: '#00a0f6' }}>
               Develop what you need
             </h3>
             <p>
@@ -71,7 +71,7 @@ const About = () => {
               }
               <Link
                 to='/work'
-                style={{textDecoration: 'none'}}
+                style={{ textDecoration: 'none' }}
               >
                 More...
               </Link>
@@ -82,12 +82,12 @@ const About = () => {
           What are my abilities.
         </h2>
         <div className='work-section'>
-          <div style={{marginRight: '20px'}}>
+          <div style={{ marginRight: '20px' }}>
             <FaCode className='large-icon' />
           </div>
           <div>
-            <h3 style={{color: '#71c9ce'}}>
-            Languages and Technologies
+            <h3 style={{ color: '#00a0f6' }}>
+              Languages and Technologies
             </h3>
             <ul>
               <li>

@@ -21,7 +21,7 @@ const Footer = () => {
           className='footer-contact'
           href='mailto:mail@mathioli.dev'
         >
-          <MdMail className='mail-icon' />
+          <MdMail className='social-icon' />
           <p>
               mail@mathioli.dev
           </p>
@@ -33,7 +33,7 @@ const Footer = () => {
             rel='noopener noreferrer'
             target='_blank'
           >
-            <FaLinkedin className='mail-icon' />
+            <FaLinkedin className='social-icon' />
           </a>
           <a
             className='footer-contact'
@@ -41,7 +41,7 @@ const Footer = () => {
             rel='noopener noreferrer'
             target='_blank'
           >
-            <FaGithub className='mail-icon' />
+            <FaGithub className='social-icon' />
           </a>
           <a
             className='footer-contact'
@@ -49,7 +49,7 @@ const Footer = () => {
             rel='noopener noreferrer'
             target='_blank'
           >
-            <FaTwitter className='mail-icon' />
+            <FaTwitter className='social-icon' />
           </a>
         </div>
       </footer>

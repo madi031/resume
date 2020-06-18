@@ -1,5 +1,5 @@
 .about-container h2 {
-  color: #71c9ce;
+  color: #00a0f6;
   font-weight: 500;
 }
 
@@ -10,7 +10,7 @@
 }
 
 .hi-container h2 {
-  color: #71c9ce;
+  color: #00a0f6;
   font-size: 2em;
   font-weight: 500;
 }
@@ -28,7 +28,7 @@
 }
 
 .large-icon {
-  fill: #71c9ce;
+  fill: #00a0f6;
   height: 4rem;
   width: 4rem;
 }
