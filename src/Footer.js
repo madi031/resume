@@ -1,6 +1,6 @@
 import React from 'react';
-import {FaGithub, FaLinkedin, FaTwitter} from 'react-icons/fa';
-import {MdMail} from 'react-icons/md';
+import { FaGithub, FaLinkedin, FaTwitter } from 'react-icons/fa';
+import { MdMail } from 'react-icons/md';
 
 import './css/App.css';
 import './css/Footer.css';
@@ -51,6 +51,27 @@ const Footer = () => {
           >
             <FaTwitter className='social-icon' />
           </a>
+        </div>
+        <div style={{display: 'flex', marginTop: '20px'}}>
+          <div style={{marginRight: '10px'}}>
+            <a
+              className='twitter-share-button'
+              data-size='large'
+              href='https://twitter.com/intent/tweet?text=Mathioli%20Ramalingam%20-%20Software%20Developer:&via=mathioli'
+            >
+              Tweet
+            </a>
+          </div>
+          <div
+            className='fb-like'
+            data-href='https://mathioli.dev'
+            data-width=''
+            data-layout='button_count'
+            data-action='like'
+            data-size='large'
+            data-share='false'
+          >
+          </div>
         </div>
       </footer>
     </div>
