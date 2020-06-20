@@ -15,6 +15,12 @@
   justify-content: space-evenly;
 }
 
+@media only screen and (max-width: 980px) {
+  .button-wrapper {
+    display: none;
+  }
+}
+
 .header-button {
   background-color: #fff;
   border: none;
@@ -43,10 +49,101 @@
   cursor: pointer;
 }
 
+.is-nav-open {
+  margin-right: 0 !important;
+}
+
 .logo-header {
   border: 2px solid #e3fdfd;
   border-radius: 10px;
   cursor: pointer;
   height: 50px;
   width: 50px;
+}
+
+.nav-button {
+  border: none;
+  color: #00a0f6;
+  transition: margin .3s;
+}
+
+.nav-button:active {
+  border: none;
+  outline: none;
+}
+
+.nav-button:focus {
+  border: none;
+  outline: none;
+}
+
+.nav-button-open {
+  margin-right: 150px;
+}
+
+.nav-icon {
+  cursor: pointer;
+}
+
+.side-nav {
+  background-color: #f9f7f7;
+  border-left: 1px solid #dbe2ef;
+  height: 100%;
+  position: fixed;
+  margin-right: -250px;
+  right: 0;
+  top: 0;
+  transition: margin .5s;
+  width: 200px;
+  z-index: 10;
+}
+
+@media only screen and (min-width: 981px) {
+  .sidenav-wrapper {
+    display: none;
+  }
+}
+
+.sidenav-button {
+  background-color: #f9f7f7;
+  border: none;
+  color: #00a0f6;
+  font-size: large;
+  font-weight: 500;
+  height: 40px;
+  text-align: start;
+  width: 100%;
+}
+
+.sidenav-button:active {
+  border: none;
+  outline: none;
+}
+
+.sidenav-button:focus {
+  border: none;
+  outline: none;
+}
+
+.sidenav-button a {
+  color: #00a0f6;
+  padding-left: 20px;
+  text-decoration: none;
+}
+
+.sidenav-button-clicked {
+  background-color: #00a0f6;
+  color: #f9f7f7;
+  font-weight: bold;
+}
+
+.sidenav-button-clicked a {
+  color: #f9f7f7;
+  text-decoration: none;
+}
+
+.sidenav-button-wrapper {
+  display: flex;
+  flex-direction: column;
+  padding-top: 40px;
 }
