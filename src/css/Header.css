@@ -127,8 +127,10 @@
 
 .sidenav-button a {
   color: #00a0f6;
+  display: inline-block;
   padding-left: 20px;
   text-decoration: none;
+  width: 100%;
 }
 
 .sidenav-button-clicked {
