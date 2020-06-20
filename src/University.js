@@ -1,5 +1,5 @@
 import React from 'react';
-import {FaMapMarkedAlt} from 'react-icons/fa';
+import { FaMapMarkedAlt } from 'react-icons/fa';
 
 import auLogo from './images/auLogo.png';
 import ncsuLogo from './images/ncsuLogo.png';
@@ -13,14 +13,19 @@ const University = () => {
       <h2 className='page-title'>
         Alma Mater
       </h2>
+      <h4 className='help-title'>
+        {
+          `*Switch to landscape mode to view more details`
+        }
+      </h4>
       <div className='univ-container ncsu-container'>
-        <div style={{marginRight: '20px'}}>
+        <div style={{ marginRight: '20px' }}>
           <img
             alt='ncsu'
             src={ncsuLogo}
           />
         </div>
-        <div style={{width: '100%'}}>
+        <div style={{ width: '100%' }}>
           <h2 className='univ-title ncsu-title'>
             North Carolina State University (Aug 2015 - Dec 2016)
           </h2>
@@ -36,7 +41,7 @@ const University = () => {
             >
               <FaMapMarkedAlt />
               <p>
-              Raleigh, North Carolina, USA
+                Raleigh, North Carolina, USA
               </p>
             </a>
           </h4>
@@ -55,13 +60,13 @@ const University = () => {
         </div>
       </div>
       <div className='univ-container au-container'>
-        <div style={{marginRight: '20px'}}>
+        <div style={{ marginRight: '20px' }}>
           <img
             alt='au'
             src={auLogo}
           />
         </div>
-        <div style={{width: '100%'}}>
+        <div style={{ width: '100%' }}>
           <h2 className='univ-title au-title'>
             Anna University (2008 - 2012)
           </h2>

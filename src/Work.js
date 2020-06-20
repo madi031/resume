@@ -15,6 +15,11 @@ const Work = () => {
       <h2 className='page-title'>
         Work
       </h2>
+      <h4 className='help-title'>
+        {
+          `*Switch to Landscape mode to view more details`
+        }
+      </h4>
       <div className='work-container ibm-container'>
         <div style={{ marginRight: '20px' }}>
           <img
