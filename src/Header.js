@@ -7,7 +7,9 @@ import './css/Header.css';
 
 import Logo from './images/logo512.png';
 
-const RESUME_GOOGLE = 'https://drive.google.com/file/d/1QwIycZfFIFujQL-qn0Hxay7qON0xYtjQ/view?usp=sharing';
+// Resume URL
+const RESUME_GOOGLE =
+  'https://drive.google.com/file/d/1QwIycZfFIFujQL-qn0Hxay7qON0xYtjQ/view?usp=sharing';
 
 const buttonName = {
   about: 'about',
@@ -21,7 +23,7 @@ const buttonName = {
 const Header = () => {
   const location = useLocation();
 
-  const buttonClicked = id => {
+  const buttonClicked = (id) => {
     Object.values(buttonName).forEach((id) => {
       document.getElementById(id) &&
         document.getElementById(id).classList.remove('button-clicked');
@@ -31,15 +33,17 @@ const Header = () => {
       document.getElementById(id).classList.add('button-clicked');
   };
 
-  const checkEventClick = e => {
+  const checkEventClick = (e) => {
     if (
-      document.getElementById('side-nav')
-      && document.getElementById('nav-button')
-      && !document.getElementById('side-nav').contains(e.target)
-      && !document.getElementById('nav-button').contains(e.target)
+      document.getElementById('side-nav') &&
+      document.getElementById('nav-button') &&
+      !document.getElementById('side-nav').contains(e.target) &&
+      !document.getElementById('nav-button').contains(e.target)
     ) {
       document.getElementById('nav-button') &&
-        document.getElementById('nav-button').classList.remove('nav-button-open');
+        document
+          .getElementById('nav-button')
+          .classList.remove('nav-button-open');
 
       document.getElementById('side-nav') &&
         document.getElementById('side-nav').classList.remove('is-nav-open');
@@ -54,15 +58,19 @@ const Header = () => {
       document.getElementById('side-nav').classList.toggle('is-nav-open');
   };
 
-  const sideNavButtonClicked = id => {
+  const sideNavButtonClicked = (id) => {
     Object.values(buttonName).forEach((id) => {
       document.getElementById(`sidenav-${id}`) &&
-        document.getElementById(`sidenav-${id}`).classList.remove('sidenav-button-clicked');
+        document
+          .getElementById(`sidenav-${id}`)
+          .classList.remove('sidenav-button-clicked');
     });
 
     document.getElementById(`sidenav-${id}`) &&
-      document.getElementById(`sidenav-${id}`).classList.add('sidenav-button-clicked');
-  }
+      document
+        .getElementById(`sidenav-${id}`)
+        .classList.add('sidenav-button-clicked');
+  };
 
   useEffect(() => {
     window.addEventListener('click', checkEventClick);
@@ -89,10 +97,8 @@ const Header = () => {
         <img
           alt='madi'
           className='logo-header'
-          src={
-            Logo
-          }
-          onClick={() => window.location.href = window.location.origin}
+          src={Logo}
+          onClick={() => (window.location.href = window.location.origin)}
         />
         <div className='button-wrapper'>
           <button
@@ -100,56 +106,42 @@ const Header = () => {
             id={buttonName.about}
             onClick={() => buttonClicked(buttonName.about)}
           >
-            <Link to='/'>
-              About
-            </Link>
+            <Link to='/'>About</Link>
           </button>
           <button
             className='header-button'
             id={buttonName.work}
             onClick={() => buttonClicked(buttonName.work)}
           >
-            <Link to='/work'>
-              Work
-            </Link>
+            <Link to='/work'>Work</Link>
           </button>
           <button
             className='header-button'
             id={buttonName.almaMater}
             onClick={() => buttonClicked(buttonName.almaMater)}
           >
-            <Link to='/alma-mater'>
-              Alma Mater
-            </Link>
+            <Link to='/alma-mater'>Alma Mater</Link>
           </button>
           <button
             className='header-button'
             id={buttonName.projects}
             onClick={() => buttonClicked(buttonName.projects)}
           >
-            <Link to='/projects'>
-              Projects
-            </Link>
+            <Link to='/projects'>Projects</Link>
           </button>
           <button
             className='header-button'
             id={buttonName.honors}
             onClick={() => buttonClicked(buttonName.honors)}
           >
-            <Link to='/honors'>
-              Honors
-            </Link>
+            <Link to='/honors'>Honors</Link>
           </button>
           <button
             className='header-button'
             id={buttonName.resume}
             onClick={() => buttonClicked(buttonName.resume)}
           >
-            <a
-              href={RESUME_GOOGLE}
-              rel='noopener noreferrer'
-              target='_blank'
-            >
+            <a href={RESUME_GOOGLE} rel='noopener noreferrer' target='_blank'>
               Resume
             </a>
           </button>
@@ -163,68 +155,51 @@ const Header = () => {
             <FaBars className='mail-icon nav-icon' />
           </button>
         </div>
-        <div
-          className='side-nav'
-          id='side-nav'
-        >
+        <div className='side-nav' id='side-nav'>
           <div className='sidenav-button-wrapper'>
             <button
               className='sidenav-button'
               id={`sidenav-${buttonName.about}`}
               onClick={() => sideNavButtonClicked(buttonName.about)}
             >
-              <Link to='/'>
-                About
-            </Link>
+              <Link to='/'>About</Link>
             </button>
             <button
               className='sidenav-button'
               id={`sidenav-${buttonName.work}`}
               onClick={() => sideNavButtonClicked(buttonName.work)}
             >
-              <Link to='/work'>
-                Work
-            </Link>
+              <Link to='/work'>Work</Link>
             </button>
             <button
               className='sidenav-button'
               id={`sidenav-${buttonName.almaMater}`}
               onClick={() => sideNavButtonClicked(buttonName.almaMater)}
             >
-              <Link to='/alma-mater'>
-                Alma Mater
-            </Link>
+              <Link to='/alma-mater'>Alma Mater</Link>
             </button>
             <button
               className='sidenav-button'
               id={`sidenav-${buttonName.projects}`}
               onClick={() => sideNavButtonClicked(buttonName.projects)}
             >
-              <Link to='/projects'>
-                Projects
-            </Link>
+              <Link to='/projects'>Projects</Link>
             </button>
             <button
               className='sidenav-button'
               id={`sidenav-${buttonName.honors}`}
               onClick={() => sideNavButtonClicked(buttonName.honors)}
             >
-              <Link to='/honors'>
-                Honors
-            </Link>
+              <Link to='/honors'>Honors</Link>
             </button>
             <button
               className='sidenav-button'
               id={`sidenav-${buttonName.resume}`}
               onClick={() => sideNavButtonClicked(buttonName.resume)}
             >
-              <a
-                href={RESUME_GOOGLE}
-                rel='noopener noreferrer'
-                target='_blank'
-              >
+              <a href={RESUME_GOOGLE} rel='noopener noreferrer' target='_blank'>
                 Resume
-            </a>
+              </a>
             </button>
           </div>
         </div>
