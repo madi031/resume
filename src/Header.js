@@ -7,7 +7,7 @@ import './css/Header.css';
 
 import Logo from './images/logo512.png';
 
-const RESUME_GOOGLE = 'https://drive.google.com/file/d/16AKbRfD2Ou-A5SsNADsckBEPQ3k7UWdi/view?usp=sharing';
+const RESUME_GOOGLE = 'https://drive.google.com/file/d/1QwIycZfFIFujQL-qn0Hxay7qON0xYtjQ/view?usp=sharing';
 
 const buttonName = {
   about: 'about',
